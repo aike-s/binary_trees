@@ -1,6 +1,6 @@
 #include <stdlib.h>
 #include <stdio.h>
-#include "binary_trees.h"
+#include "../binary_trees.h"
 
 /**
  * main - Entry point
@@ -19,7 +19,7 @@ int main(void)
     binary_tree_insert_right(root, 128);
     binary_tree_print(root);
 
-    ret = binary_tree_is_root(root);
+    ret = binary_tree_is_root(NULL);
     printf("Is %d a root: %d\n", root->n, ret);
     ret = binary_tree_is_root(root->right);
     printf("Is %d a root: %d\n", root->right->n, ret);
