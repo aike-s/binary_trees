@@ -26,7 +26,7 @@ size_t binary_tree_nodes(const binary_tree_t *tree)
 
 
 /**
- * binary_tree_has_child - checks if a node is a leaf
+ * has_child - checks if a node is a leaf
  * @node: is a pointer to the node to check
  * Return: 1 if node is a leaf, otherwise 0
  */

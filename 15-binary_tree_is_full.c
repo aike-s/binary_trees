@@ -1,7 +1,7 @@
 #include "binary_trees.h"
 /**
  * binary_tree_is_full - checks if a binary tree is full
- * @rototype: is a pointer to the root node of the tree to check
+ * @tree: is a pointer to the root node of the tree to check
  * Return: 1 if the tree is full, otherwise 0
  */
 int binary_tree_is_full(const binary_tree_t *tree)
